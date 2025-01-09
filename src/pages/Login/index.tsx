@@ -23,7 +23,7 @@ const Login: React.FC = () => {
     await run();
     if (!error) {
       // 查询用户基本信息
-      setToken('04bb9a64575c4db7af075f734ccdecf8');
+      setToken('xxxxx');
       refresh();
       //
       navigate('/home');
