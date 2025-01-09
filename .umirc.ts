@@ -59,7 +59,7 @@ export default defineConfig({
   },
   proxy: {
     '/api': {
-      target: 'https://xnsk-dev.mapxnsk.com',
+      target: '',
       changeOrigin: true,
       pathRewrite: { '^/api': '/api' },
     },
